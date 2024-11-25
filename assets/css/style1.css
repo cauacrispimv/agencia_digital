@@ -3,10 +3,18 @@
     font-family: sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
+
 #first-div {
     display: flex;
     position: relative;
     overflow: hidden;
+
+    justify-content: center;
+    align-items: center;
 
     width: 100%;
     height: 460px;
@@ -25,7 +33,7 @@ nav {
     display: flex;
     align-items: center;
     position: absolute;
-    gap: 15px;
+    gap: 18px;
     top: 0;
     left: 100px;
     width: 100%;
@@ -44,5 +52,25 @@ nav {
 }
 
 .btn-whatsapp {
+    width: 180px;
+    height: 40px;
     background-color: #25d364;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.btn-whatsapp > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgWPP {
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+
