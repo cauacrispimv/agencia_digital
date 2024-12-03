@@ -13,6 +13,10 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  width: 100%;
+  height: auto;
+}
 
 .container {
   width: 100%;
@@ -134,7 +138,7 @@ div#destacando-o-texto {
 section#solucoes {
   background-color: #003399;
   top: 500px;
-  width: 100%;
+  width: 1050px;
   height: 500px;
   color: #fff;
 }
@@ -167,18 +171,18 @@ section#solucoes {
   bottom: 440px;
   right: 367px;
   gap: 10px;
-  justify-content: center;
-  width: auto;
+  width: 600px;
 }
 
 #container-solucoes > .box1 {
   display: flex;
-  align-items: center;
-  justify-content: center;
   width: 220px;
   height: 110px;
   background-color: #ffffff00;
   border: 1px solid #fff;
   color: #fff;
   padding: 20px;
+  position: relative;
+  top: 0;
+  left: 800px;
 }
