@@ -149,20 +149,21 @@ section#solucoes {
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   position: relative;
-  top: 20px;
-  left: 550px;
+  top: 55px;
+  left: 175px;
   text-transform: uppercase;
-}
-
-#img-mulher {
-  position: relative;
-  bottom: 40px;
+  text-align: center;
+  line-height: 1.1;
 }
 
 #h1-solucoes > span#solucoes-em {
   justify-content: center;
   align-items: center;
-  margin-left: 33px;
+}
+
+#img-mulher {
+  position: relative;
+  bottom: 16px;
 }
 
 #container-solucoes {
@@ -183,7 +184,7 @@ section#solucoes {
   color: #fff;
   padding: 20px;
   position: relative;
-  top: 0;
+  top: 40px;
   left: 800px;
   border-radius: 6px;
 }
