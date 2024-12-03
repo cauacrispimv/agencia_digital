@@ -5,6 +5,11 @@
   font-family: sans-serif;
 }
 
+::selection {
+  color: #fff;
+  background-color: rgb(134, 134, 134);
+}
+
 html,
 body {
   width: 100%;
