@@ -1,2 +1,2 @@
 ## Acesse meu projeto online: 
-![Clique aqui](https://www.github.io/cauacrispimv/projeto_frontend_p2)
+![Clique aqui](https://cauacrispimv.github.io/projeto_frontend_p2)
