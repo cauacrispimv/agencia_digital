@@ -8,6 +8,7 @@
 html,
 body {
   height: 100%;
+  overflow-y: auto;
 }
 
 #first-div {
@@ -102,10 +103,9 @@ nav {
 }
 
 #section-quem-somos {
-  position: fixed;
-  background-color: #fafafa;
+  background-color: #fff;
   width: 100%;
-  height: 400px;
+  height: 280px;
 }
 
 #section-quem-somos > span > p {
@@ -119,14 +119,36 @@ nav {
   margin-top: 100px;
 }
 
-#pMono {
-  font-family: "Poppins";
+#section-quem-somos > #pMono {
+  position: relative;
+  font-family: "Poppins", sans-serif;
   color: #003399;
   padding: 10px;
   line-height: 1.5;
-  max-width: 800px; 
+  max-width: 800px;
   font-weight: 500;
-  position: absolute;
-  top: 97px;
+  top: -110px;
   left: 700px;
+}
+
+section#solucoes {
+  background-color: #003399;
+  top: 500px;
+  width: 100%;
+  height: 500px;
+  color: #fff;
+}
+
+#h1-solucoes {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+  left: 800px;
+}
+
+#img-mulher {
+    position: relative;
+    top: -90px;
+    left: 300px;
 }
