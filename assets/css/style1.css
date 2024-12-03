@@ -235,3 +235,42 @@ div.box1 > #p-consultoria {
   position: relative;
   left: -100px;
 }
+
+section#produtos-exclusivos {
+  background-color: #e07000;
+  height: 300px;
+}
+
+section#produtos-exclusivos > h1 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: bolder;
+  position: relative;
+  top: 60px;
+  left: 100px;
+  border-bottom: 4px solid #003399;
+  padding-bottom: 5px;
+  max-width: 150px;
+  line-height: 1.1;
+}
+
+#btn-whatsapp-2 {
+  position: relative;
+  top: 85px;
+  left: 85px;
+}
+
+#btn-whatsapp-2 > a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-whatsapp-2 > img {
+  margin-right: 8px;
+  margin-left: -10px;
+}
