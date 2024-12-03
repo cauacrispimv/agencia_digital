@@ -1,104 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
 
 * {
-    margin: 0;
-    font-family: sans-serif;
+  margin: 0;
+  font-family: sans-serif;
 }
 
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 #first-div {
-    display: flex;
-    position: relative;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 460px;
-    background-color: #000;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 460px;
+  background-color: #000;
 }
 
 .links-from-nav {
-    text-decoration: none;
-    color: #fff;
-    padding: 5px 10px;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    gap: 18px;
-    top: 0;
-    left: 100px;
-    width: 100%;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 12px;
-    background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  gap: 18px;
+  top: 0;
+  left: 100px;
+  width: 100%;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #img-home-background {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    z-index: 0;
-    box-shadow: inset 0 0 100px 50px rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 0;
+  box-shadow: inset 0 0 100px 50px rgba(0, 0, 0, 0);
 }
 
 .btn-whatsapp {
-    width: 180px;
-    height: 40px;
-    background-color: #25d364;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 180px;
+  height: 40px;
+  background-color: #25d364;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-whatsapp > a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #imgWPP {
-    width: 20px; 
-    height: 20px;
-    margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 
-#span-agencia{
-    left: 545px;
+#span-agencia {
+  left: 545px;
 }
 
 #destacando-o-texto > span.digitando {
-    display: flex;
-    white-space: nowrap;
-    font-family: "Poppins", sans-serif;
-    font-size: 30px;
-    color: #e07000;
-    font-weight: bolder;
-    text-transform: uppercase;
-    width: 230px;
-    text-align: center;
-    justify-content: center;
+  display: flex;
+  white-space: nowrap;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: #e07000;
+  font-weight: bolder;
+  text-transform: uppercase;
+  width: 230px;
+  text-align: center;
+  justify-content: center;
 }
 
 #destacando-o-texto {
-    font-weight: normal;
-    font-family: "Poppins", sans-serif;
-    font-size: 25px;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 200px;
-    left: 575px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 200px;
+  left: 575px;
 }
 
+#section-quem-somos {
+  position: fixed;
+  background-color: #fafafa;
+  width: 100%;
+  height: 400px;
+}
 
+#section-quem-somos > span > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+  color: #003399;
+  border-left: 5px solid #e07000;
+  padding-left: 10px;
+  margin-left: 400px;
+  margin-top: 100px;
+}
 
+#pMono {
+  font-family: "Poppins";
+  color: #003399;
+  padding: 10px;
+  line-height: 1.5;
+  max-width: 800px; 
+  font-weight: 500;
+  position: absolute;
+  top: 97px;
+  left: 700px;
+}
